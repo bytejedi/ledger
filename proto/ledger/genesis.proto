@@ -1,0 +1,9 @@
+syntax = "proto3";
+package ledger.ledger;
+
+option go_package = "github.com/bytejedi/ledger/x/ledger/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
